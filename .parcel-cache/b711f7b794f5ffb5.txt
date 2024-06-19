@@ -1,0 +1,17 @@
+16
+35D:\Nancy\demo\pikachu-1\src\main.js133307530489342718 0
+34D:\Nancy\demo\pikachu-1\src\images133307871392794806 1
+28D:\Nancy\demo\pikachu-1\dist133309288089918293 1
+27D:\Nancy\demo\pikachu-1\src133307892155710637 1
+38D:\Nancy\demo\pikachu-1\src\index.html133307874517283716 0
+37D:\Nancy\demo\pikachu-1\src\style.css133307882570533912 0
+37D:\Nancy\demo\pikachu-1\src\test.html133307910869954631 0
+35D:\Nancy\demo\pikachu-1\src\test.js133309274791626953 0
+44D:\Nancy\demo\pikachu-1\src\images\flash.gif133307868121460039 0
+45D:\Nancy\demo\pikachu-1\dist\test.0c79c421.js133309288089896633 0
+49D:\Nancy\demo\pikachu-1\dist\test.0c79c421.js.map133309288089918293 0
+45D:\Nancy\demo\pikachu-1\dist\test.c860f2e8.js133309288089663287 0
+49D:\Nancy\demo\pikachu-1\dist\test.c860f2e8.js.map133309288089749898 0
+38D:\Nancy\demo\pikachu-1\dist\test.html133309288089663287 0
+36D:\Nancy\demo\pikachu-1\dist\test.js133309278670711901 0
+40D:\Nancy\demo\pikachu-1\dist\test.js.map133309278670751848 0

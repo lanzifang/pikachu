@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:before, :after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffe600;
+  min-height: 100vh;
+}
+
+.skin {
+  position: relative;
+}
+
+.nose {
+  z-index: 2;
+  border: 10px solid #0000;
+  border-top-color: #000;
+  width: 0;
+  height: 0;
+  margin-left: -10px;
+  position: relative;
+  top: 145px;
+  left: 50%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0);
+  }
+
+  33% {
+    transform: rotate(5deg);
+  }
+
+  66% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.nose:hover {
+  transform-origin: bottom;
+  animation: .25s linear infinite wave;
+}
+
+.yuan {
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 10px 10px 0 0;
+  width: 20px;
+  height: 6px;
+  position: absolute;
+  top: -16px;
+  left: -10px;
+}
+
+.eye {
+  background: #2e2e2e;
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  margin-left: -32px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+}
+
+.eye:before {
+  content: "";
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: relative;
+  top: 0;
+  left: 8px;
+}
+
+.eye.left {
+  transform: translate(-120px);
+}
+
+.eye.right {
+  transform: translate(120px);
+}
+
+.mouth {
+  width: 200px;
+  height: 200px;
+  margin-left: -100px;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+}
+
+.mouth .up {
+  z-index: 1;
+  position: relative;
+  top: -20px;
+}
+
+.mouth .up .lip {
+  background: #ffe600;
+  border: 3px solid #000;
+  border-top-color: #0000;
+  width: 100px;
+  height: 30px;
+  margin-left: -50px;
+  position: absolute;
+  left: 50%;
+}
+
+.mouth .up .lip.left {
+  border-radius: 0 0 0 50px;
+  transform: rotate(-15deg)translateX(-53px);
+}
+
+.mouth .up .lip.right {
+  border-radius: 0 0 50px;
+  transform: rotate(15deg)translateX(53px);
+}
+
+.mouth .up .lip:before {
+  content: "";
+  background: #ffe600;
+  width: 7px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.mouth .up .lip.left:before {
+  right: -5px;
+}
+
+.mouth .up .lip.right:before {
+  left: -6px;
+}
+
+.mouth .down {
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  top: 5px;
+  overflow: hidden;
+}
+
+.mouth .down .yuan1 {
+  background: #9b000a;
+  border: 3px solid #000;
+  border-radius: 75px / 300px;
+  width: 150px;
+  height: 1000px;
+  margin-left: -75px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  overflow: hidden;
+}
+
+.mouth .down .yuan1 .yuan2 {
+  background: #ff485f;
+  border-radius: 100px;
+  width: 200px;
+  height: 300px;
+  margin-left: -100px;
+  position: absolute;
+  bottom: -155px;
+  left: 50%;
+}
+
+.face {
+  z-index: 4;
+  border: 3px solid #000;
+  width: 88px;
+  height: 88px;
+  margin-left: -44px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+}
+
+.face > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.face.left {
+  background: red;
+  border-radius: 50%;
+  transform: translateX(-180px);
+}
+
+.face.left > img {
+  transform-origin: 0 0;
+  transform: rotateY(180deg);
+}
+
+.face.right {
+  background: red;
+  border-radius: 50%;
+  transform: translateX(180px);
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
